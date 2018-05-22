@@ -1,0 +1,4 @@
+#Sat May 12 23:34:15 KST 2018
+base.0=D\:\\NaverClovaAPI-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

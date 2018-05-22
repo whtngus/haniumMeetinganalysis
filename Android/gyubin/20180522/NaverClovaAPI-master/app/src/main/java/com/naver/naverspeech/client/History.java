@@ -1,0 +1,31 @@
+
+package com.naver.naverspeech.client;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+
+public class History extends AppCompatActivity {
+    Button serarch_date,search_keyword,serach_subject,getting_detail,delete;
+    EditText input_keyword,input_subject;
+    ListView sort_standard;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.history);
+        setTitle("History");
+        getting_detail = (Button) findViewById(R.id.geting_detail);
+
+        getting_detail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(History.this,Detail_history.class);
+                startActivity(intent);
+            }
+        });
+    }
+}

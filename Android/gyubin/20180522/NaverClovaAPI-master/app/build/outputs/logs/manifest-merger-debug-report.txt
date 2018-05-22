@@ -1,0 +1,160 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\206d021ba671eb252e7b33bae09ee6b8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\16ebf32cffcfcbd7ac6f550c11197812\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\b20dc7a87fa80c4c175172b1ff177e29\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\8945853faec1045fb0470811729a2ef7\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+	package
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:2:5-43
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:1-40:12
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:12:5-67
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:5:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:6:5-81
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:11:5-81
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.CAMERA
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:8:5-64
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:8:22-62
+uses-feature#android.hardware.camera2
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:9:19-58
+application
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:11:5-38:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\206d021ba671eb252e7b33bae09ee6b8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\206d021ba671eb252e7b33bae09ee6b8\AndroidManifest.xml:25:5-20
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:14:5-15:19
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:14:5-15:19
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\16ebf32cffcfcbd7ac6f550c11197812\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\16ebf32cffcfcbd7ac6f550c11197812\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\b20dc7a87fa80c4c175172b1ff177e29\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\b20dc7a87fa80c4c175172b1ff177e29\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\8945853faec1045fb0470811729a2ef7\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\8945853faec1045fb0470811729a2ef7\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.naver.naverspeech.client.MainActivity
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:17:9-22:20
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.naver.naverspeech.client.Conference
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:23:19-45
+activity#com.naver.naverspeech.client.SaveConference
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:25:19-49
+activity#com.naver.naverspeech.client.Camera_popup
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:26:9-28:15
+	android:theme
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:27:19-82
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:26:19-47
+activity#com.naver.naverspeech.client.Login
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:30:9-42
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:30:19-40
+activity#com.naver.naverspeech.client.Conference_pre
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:31:9-52
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:31:19-49
+activity#com.naver.naverspeech.client.Join_Add
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:32:9-46
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:32:19-43
+activity#com.naver.naverspeech.client.Setting
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:33:9-45
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:33:19-42
+activity#com.naver.naverspeech.client.History
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:34:9-45
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:34:19-42
+activity#com.naver.naverspeech.client.Detail_history
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:35:9-51
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:35:19-49
+activity#com.naver.naverspeech.client.Calendar
+ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:36:9-45
+	android:name
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml:36:19-43
+uses-sdk
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\206d021ba671eb252e7b33bae09ee6b8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\206d021ba671eb252e7b33bae09ee6b8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:7:5-9:41
+MERGED from [com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\naverspeech-sdk-android-1.1.3.aar\b6632964196ef1f1dd6d295127de7327\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\16ebf32cffcfcbd7ac6f550c11197812\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\16ebf32cffcfcbd7ac6f550c11197812\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\b20dc7a87fa80c4c175172b1ff177e29\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\b20dc7a87fa80c4c175172b1ff177e29\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\8945853faec1045fb0470811729a2ef7\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\8945853faec1045fb0470811729a2ef7\AndroidManifest.xml:20:5-43
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\songgyubin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\206d021ba671eb252e7b33bae09ee6b8\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\NaverClovaAPI-master\app\src\main\AndroidManifest.xml

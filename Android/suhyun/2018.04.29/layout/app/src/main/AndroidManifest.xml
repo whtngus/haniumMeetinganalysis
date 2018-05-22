@@ -20,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Conference_pre" />
         <activity android:name=".Conference" />
+        <activity android:name=".Conference_pre" />
         <activity android:name=".Join_Add" />
         <activity android:name=".Setting" />
         <activity android:name=".history" />
