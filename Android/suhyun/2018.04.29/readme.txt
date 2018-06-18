@@ -1,1 +1,0 @@
-mainactivity에 layout을 Bootstrap 으로 변경 
