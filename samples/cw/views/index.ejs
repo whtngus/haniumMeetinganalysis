@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HANIUM | Dashboard</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="/plugins/iCheck/flat/blue.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="/plugins/datepicker/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="/plugins/daterangepicker/daterangepicker-bs3.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!--nav + search + side-->
+  <% include ./plain.ejs %>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Dashboard</h1>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <!-- user information -->
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col user-block row">
+                <img class="img-circle img-bordered-sm" src="../../dist/img/user1-128x128.jpg" alt="user image">
+                <div class="row-eq-height" style="background-color: pink;">
+                  <span class="username">
+                    <a href="#"><%= info.username %></a>
+                  </span>
+                  <span class="description d-block"><%= info.comname+'/'+info.department+'/'+info.position %></span>
+                </div>
+              </div>
+              <div class="col-sm-3 row-eq-height" style="background-color: blue;">
+                <button type="button" onclick="location.href='/meet/info'" class="btn btn-block btn-outline-info btn-sm">회의 시작</button>
+                <button type="button" onclick="location.href='/meet/list'" class="btn btn-block btn-outline-info btn-sm">회의 참여</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /info-->
+
+        <!-- Main row -->
+        <div class="row">
+          <!-- Left col -->
+          <section class="col-lg-7 connectedSortable">
+            <!-- Bar chart -->
+            <div class="card card-gray">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="fa fa-bar-chart-o"></i>
+                  지난 회의
+                </h3>
+              </div>
+              <div class="list-group list-group-flush small">
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>회의1</strong>
+                    <div class="text-muted smaller">Today at 5:43 PM - 5m ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>회의2</strong>
+                    <div class="text-muted smaller">Today at 4:37 PM - 1hr ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>회의3</strong>
+                    <div class="text-muted smaller">Today at 4:31 PM - 1hr ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>회의4</strong>
+                    <div class="text-muted smaller">Today at 3:54 PM - 2hrs ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">View all activity...</a>
+            </div>
+              <!-- /.card-body-->
+            </div>
+            <!-- /.card -->
+
+            <div class="card card-danger">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="fa fa-bullhorn"></i>
+                  알림
+                </h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="list-group list-group-flush small">
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>알림 야야</strong>
+                    <div class="text-muted smaller">Today at 5:43 PM - 5m ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>알림 요ㅛㅇ</strong>
+                    <div class="text-muted smaller">Today at 4:37 PM - 1hr ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>알림 여ㅕ여</strong>
+                    <div class="text-muted smaller">Today at 4:31 PM - 1hr ago</div>
+                  </div>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action" href="#">
+                <div class="media">
+                  <div class="media-body">
+                    <strong>알림 유유</strong>
+                    <div class="text-muted smaller">Today at 3:54 PM - 2hrs ago</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </section>
+          <!-- /.Left col -->
+
+
+          <!-- right col (We are only adding the ID to make the widgets sortable)-->
+          <section class="col-lg-5 connectedSortable">
+
+            <div class="card card-warning">
+              <div class="card-header">
+                <h3 class="card-title">회의 그룹</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" onclick="location.href='/group/add'"><i class="fa fa-plus"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <div class="center-block">
+                      <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/45x45" alt="" align="left">
+                      <div>
+                        오정현
+                        <div><small>웹/뿌시래기</small></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              <!-- /.card-body -->
+            </div>
+
+            <!-- Calendar -->
+            <div class="card">
+              <div class="card-header no-border">
+
+                <h3 class="card-title">
+                  <i class="fa fa-calendar"></i>
+                  캘린더
+                </h3>
+                <!-- tools card -->
+                <div class="card-tools">
+                  <!-- button with a dropdown -->
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown">
+                      <i class="fa fa-bars"></i></button>
+                    <div class="dropdown-menu float-right" role="menu">
+                      <a href="#" class="dropdown-item">Add new event</a>
+                      <a href="#" class="dropdown-item">Clear events</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">View calendar</a>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-success btn-sm" data-widget="collapse">
+                    <i class="fa fa-minus"></i>
+                  </button>
+                </div>
+                <!-- /. tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body p-0">
+                <!--The calendar -->
+                <div id="calendar" style="width: 100%"></div>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </section>
+          <!-- right col -->
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!--footer-->
+  <% include ./footer.ejs %>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Sparkline -->
+<script src="/plugins/sparkline/jquery.sparkline.min.js"></script>
+<!-- jvectormap -->
+<script src="/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="/plugins/knob/jquery.knob.js"></script>
+<!-- daterangepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+<script src="/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- datepicker -->
+<script src="/plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- Slimscroll -->
+<script src="/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="/plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="/dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="/dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="/dist/js/demo.js"></script>
+</body>
+</html>
