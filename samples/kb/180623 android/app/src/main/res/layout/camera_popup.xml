@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        tools:context=".MainActivity"
+
+        android:orientation="vertical">
+
+
+
+        <EditText
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/photoName"
+            android:hint=" "
+
+            />
+        <Button
+
+            android:id="@+id/getcamera"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="카메라"
+            android:onClick="onClick"
+            />
+
+        <Button
+
+            android:id="@+id/getalbum"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="앨범"
+            android:onClick="onClick"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/camera_upload"
+            android:text="업로드"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+</ScrollView>
