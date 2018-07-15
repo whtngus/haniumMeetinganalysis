@@ -13,8 +13,9 @@ module.exports = function(passport) {
   }));
 
   route.get('/signup', (req,res) => {
-    res.render('register')
+    res.render('register', { message: req.flash('signup') })
   })
+
   route.post('/signup', passport.authenticate('signup', {
       successRedirect : '/index',
       failureRedirect : '/signup', //가입 실패시 redirect할 url주소

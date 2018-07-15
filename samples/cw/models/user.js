@@ -1,29 +1,25 @@
-var mongoose = require('mongoose');
-var bcrypt = require('bcrypt-nodejs');
-var userSchema = mongoose.Schema({
-    name: String,
-    id : String,
-    password : String,
-    company: String,
-    department: String,
-    position: String,
-    group: [{type: mongoose.Schema.Types.ObjectId, ref: 'User'}],
-    meet : [{
-      subject: String,
-      when: Date,
-      where: String,
-      who: [],
-      who_detail: [],
-      note: String
-    }]
-});
-//password를 암호화
-userSchema.methods.generateHash = function(password) {
-    return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
-};
-//password의 유효성 검증
-userSchema.methods.validPassword = function(password) {
-    return bcrypt.compareSync(password, this.password);
-};
+module.exports = function (sequelize, DataTypes) {
+  const user = sequelize.define('User', {
+    userid: { field: 'userid', type: DataTypes.STRING(45), unique: true, allowNull: false },
+    pw: { field: 'pw', type: DataTypes.STRING(225), allowNull: false },
+    username: {field: 'username', type: DataTypes.STRING(45), allowNull: false },
+    comname: {field: 'comname', type: DataTypes.STRING(255), allowNull: false },
+    department: {field: 'department', type: DataTypes.STRING(125), allowNull: false },
+    position: {field: 'position', type: DataTypes.STRING(45), allowNull: false },
+    image: {field: 'image', type: DataTypes.BLOB, allowNull: true },
+  }, {
+    // don't use camelcase for automatically added attributes but underscore style
+    // so updatedAt will be updated_at
+    underscored: true,
 
-module.exports = mongoose.model('User', userSchema);
+    // disable the modification of tablenames; By default, sequelize will automatically
+    // transform all passed model names (first parameter of define) into plural.
+    // if you don't want that, set the following
+    freezeTableName: true,
+
+    // define the table's name
+    tableName: 'user'
+  });
+
+  return user;
+};

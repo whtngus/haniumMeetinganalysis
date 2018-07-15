@@ -8646,6 +8646,7 @@ body,
   top: 0;
   left: 0;
   bottom: 0;
+  color: ;
 }
 
 .main-sidebar, .main-sidebar:before {
@@ -12304,7 +12305,6 @@ label:not(.form-check-label):not(.custom-file-label) {
   top:50%;
   left:10px;
   */
-  animation: ease-in;
   margin: 0;
   color: white;
   text-align: left;

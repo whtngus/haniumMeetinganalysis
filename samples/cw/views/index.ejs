@@ -11,7 +11,7 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/dist/css/adminlte.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="/plugins/iCheck/flat/blue.css">
   <!-- jvectormap -->
@@ -55,14 +55,14 @@
             <div class="row">
               <div class="col user-block row">
                 <img class="img-circle img-bordered-sm" src="../../dist/img/user1-128x128.jpg" alt="user image">
-                <div class="row-eq-height" style="background-color: pink;">
+                <div class="row-eq-height">
                   <span class="username">
                     <a href="#"><%= info.username %></a>
                   </span>
                   <span class="description d-block"><%= info.comname+'/'+info.department+'/'+info.position %></span>
                 </div>
               </div>
-              <div class="col-sm-3 row-eq-height" style="background-color: blue;">
+              <div class="col-sm-3 row-eq-height">
                 <button type="button" onclick="location.href='/meet/info'" class="btn btn-block btn-outline-info btn-sm">회의 시작</button>
                 <button type="button" onclick="location.href='/meet/list'" class="btn btn-block btn-outline-info btn-sm">회의 참여</button>
               </div>

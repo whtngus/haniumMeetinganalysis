@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "HANJH",
+    "password": "gksdldma#VIC",
+    "database": "commit",
+    "host": "hantestdb.cklwl7rg6i5n.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "HANJH",
+    "password": "gksdldma#VIC",
+    "database": "commit",
+    "host": "hantestdb.cklwl7rg6i5n.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "HANJH",
+    "password": "gksdldma#VIC",
+    "database": "commit",
+    "host": "hantestdb.cklwl7rg6i5n.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
