@@ -22,7 +22,7 @@
     "http-errors": "^1.6.3",
     "jquery": "^3.5.0",
     "mongodb": "^3.0.10",
-    "mongoose": "^5.1.5",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.0",
     "mysql2": "^1.5.3",
     "node-mysql": "^0.4.2",
